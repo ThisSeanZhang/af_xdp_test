@@ -8,3 +8,9 @@ cd xdp-tools
 git submodule update --init --recursive
 git submodule foreach 'git fetch && git checkout master && git pull'
 ```
+
+# current commit
+## xdp-tools
+f8fffe4fa53ef671ec5c1de674538c0408394643
+## libbpf
+caa17bdcbfc58e68eaf4d017c058e6577606bf56
