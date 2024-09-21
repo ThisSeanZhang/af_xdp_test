@@ -1,0 +1,13 @@
+[package]
+name = "libxdp-sys"
+version = "0.1.0"
+edition = "2021"
+license = "LGPL-2.1 OR BSD-2-Clause"
+build = "build.rs"
+links = "libxdp"
+
+[dependencies]
+libbpf-sys = { version = "1.4.1", default-features = false }
+
+[build-dependencies]
+bindgen = { version = "^0.69.4" }

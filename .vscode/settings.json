@@ -1,0 +1,27 @@
+{
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml",
+        "editor.formatOnSave": true
+    },
+    "files.associations": {
+        "bpf_endian.h": "c",
+        "vmlinux.h": "c",
+        "bpf_core_read.h": "c",
+        "landscape.h": "c",
+        "landscape_log.h": "c",
+        "bpf_helpers.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c"
+    },
+    "[c]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.formatOnSave": true
+    }
+}
